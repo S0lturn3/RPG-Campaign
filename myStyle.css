@@ -1,0 +1,39 @@
+body{
+  background-color: #f2f2f2;
+}
+
+.mainMenu{
+  background-color: #ff471a;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.navigationBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.generatorButton{
+  text-align: center;
+}
+
+li{
+  list-style-type: none;
+  float: left;
+}
+
+li a{
+  font-size: 25px;
+  display: block;
+  padding: 10px;
+  background-color: #dddddd;
+}
+
+footer{
+  text-align: center;
+  font-size: 14px;
+  background-color: #ff471a;
+}
