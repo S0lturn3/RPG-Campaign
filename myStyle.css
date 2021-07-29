@@ -6,7 +6,6 @@ body{
 .mainMenu{
   margin-left: 125px;
   margin-right: 125px;
-  /* background-image: url("https://www.goodfon.com/download/camels-men-caravan-desert-rocks-creatures-fantasy-art-artwor/1366x768/"); */
   background-color: #ff471a;
   border: 1px solid black;
   border-radius: 8px;
@@ -14,7 +13,8 @@ body{
 }
 
 .navigationBar{
-  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -28,7 +28,6 @@ body{
 }
 
 .generatorButton{
-<<<<<<< HEAD
   display: grid;
   text-decoration: none;
   margin-left: 425px;
@@ -42,16 +41,6 @@ body{
   letter-spacing: 6px;
   text-align: center;
   font-size: 18px;
-=======
-  background-color: #ff3300;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
->>>>>>> 38c8ac109dce6d2168b869b7411c262bc9be2c4e
   transition-duration: 0.4s;
 }
 
