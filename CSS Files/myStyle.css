@@ -1,0 +1,107 @@
+body{
+  background-image: url("../Images/mainDesertIMG.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Libre", "Franklin",sans-serif;
+}
+
+.mainMenu{
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  color: white;
+  background-color: #7200fc;
+  border: 1px solid black;
+}
+
+.navigationBar{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.mainAbout{
+  min-height: 400px;
+  background-color: #ebc2ff;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.generatorButton{
+  display: grid;
+  text-decoration: none;
+  margin-left: 425px;
+  margin-right: 425px;
+  background-image: linear-gradient(to bottom, #8119ff, #7200fc);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  color: white;
+  letter-spacing: 6px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.generatorButton:hover{
+  background-color: #cc2900;
+
+}
+
+li{
+  padding: 10px;
+  border-right: 1px solid #bbb;
+  /* border-top: 1px solid #bbb; */
+  float: left;
+  list-style-type: none;
+}
+
+li:last-child{
+  border-right: none;
+  border-left: 1px solid #bbb;
+  /* border-top: 1px solid #bbb; */
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 25px;
+}
+
+.footer{
+  background: #7200fc;
+  color: white;
+  height: 200px;
+  position: relative;
+}
+
+.footer .footer-content{
+  border: 1px solid red;
+  height: 165px;
+
+}
+
+.footer .footer-bottom{
+  background: #7200ac;
+  color: white;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding-top: 15px;
+}
+
+/* FOOTER*/
+.footer-section a{
+  color: white;
+  text-decoration: none;
+  font-style: oblique;
+}
